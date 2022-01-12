@@ -6,7 +6,7 @@ const INITIAL_STATE = {
     loading: false
 };
 
-const URL_BASE = 'http://localhost:8080';
+const URL_BASE = 'https://random-sofkau.herokuapp.com';
 const GET_LIST = 'GET_LIST';
 const GENERATE_LIST = 'GENERATE_LIST';
 

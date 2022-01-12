@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {useDispatch, useSelector} from "react-redux";
 import {generateList} from "../redux/listDuck";
+import "./estilos.css"
 
 
 export default function Form() {
@@ -15,17 +16,16 @@ export default function Form() {
     }
 
     return (
-        <div className="mt-2">
+        <div className="formulario">
             <form onSubmit={onSubmit}>
-                <label htmlFor="list" className="fs-3">Ingrese una lista separada por
-                    comas:</label>
+                <label htmlFor="list" className="fs-3">Ingrese una lista CSV</label>
                 <br/>
-                <textarea id="list" style={{width: "300px", height: "120px"}}
+                <textarea id="list" className="texto" style={{width: "300px", height: "120px"}}
                           onChange={(e) => setLista(e.target.value)}
                 ></textarea>
                 <br/>
-                <button type="submit" className="btn btn-primary">
-                    Enviar
+                <button type="submit" className="btn btn-primary boton">
+                    Submit
                 </button>
             </form>
         </div>

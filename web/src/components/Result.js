@@ -17,17 +17,14 @@ export default function Result() {
     return (
         <>
             <button onClick={() => handleClick()}
-                    className="btn btn-primary mt-2"
-            >Todos los resultados
+                    className="btn btn-primary mt-2 boton"
+            >Ver anteriores resultados
             </button>
-            <br/>
-            Resultado:
-            <br/>
             <table className="table">
                 <thead>
                 <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Result</th>
+                    <th scope="col">Resultado</th>
 
                 </tr>
                 </thead>

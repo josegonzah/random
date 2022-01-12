@@ -1,0 +1,29 @@
+.formulario{
+    color: #107C10;
+    text-align: center;
+}
+
+.texto{
+    background-color: #d3d3d3;
+    height: 400px;
+    width: 400px;
+}
+
+.boton{
+    background-color: #107C10;
+
+}
+
+.boton:hover{
+    background-color: #1DB954;
+    color: black;
+    border-color: black;
+}
+
+.container{
+    background-color: black;
+}
+
+.table{
+    color: white;
+}
